@@ -1,5 +1,5 @@
 @import './sass/config';
-@import './sass/mobile';
+
 @import './components/AppBar/AppBar';
 @import './components/Main/MainStyle';
 @import './components/About/AboutStyle';
@@ -7,6 +7,8 @@
 @import './components/Contact/ContactStyle';
 @import './components/AppBar/HamburgerMenu/HamburgerMenu';
 @import './components/AppBar/Menu/Menu';
+@import './components/Footer/FooterStyle';
+
 * {
   box-sizing: border-box;
 }
@@ -53,3 +55,5 @@ header {
 .text-secondary {
   color: $secondary-color;
 }
+
+@import './sass/mobile';
